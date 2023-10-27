@@ -13,7 +13,7 @@ import factory.SymptomFactory;
 public class Medicament {
 	private String name;
 	private List<Symptom> symptoms=new ArrayList<Symptom>();
-	private SymptomFactory factory;
+	private SymptomFactory factory; 
 
 
 	public String getName() {

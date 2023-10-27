@@ -34,7 +34,7 @@ public class SymptomFactory {
 	    	if (neuroMuscularSymptom.contains(symptomName)) return new NeuroMuscularSymptom(symptomName,(int)index, impact);
 	    	if (respiratorySymptom.contains(symptomName)) return new RespiratorySymptom(symptomName,(int)index, impact);
 	    }
-	    return null;
+	    return null; 
 		
 	}
 	

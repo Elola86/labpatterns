@@ -58,7 +58,7 @@ public class Covid19Pacient {
 
 	public void addSymptom(Symptom c, Integer w){
 		symptoms.put(c,w);
-	}
+	} 
 	
 	public Symptom addSymptomByName(String symptom, Integer w){
 		Symptom s=getSymptomByName(symptom);
